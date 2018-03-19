@@ -1,0 +1,24 @@
+#volontar img{
+  max-width: 50%;
+  border-radius: 5px;
+}
+#volontar article{
+  width: 80%;
+}
+#volontar #bw{
+  filter: grayscale(30%);
+
+}
+#volontar .lists{
+  display: flex;
+  justify-content: space-around;
+
+}
+#volontar #video{
+  text-align: center;
+}
+@media only screen and (max-width: 830px){
+  #volontar .lists{
+    display: block;
+  }
+}

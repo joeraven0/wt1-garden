@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang=sv>
+<head>
+  <meta name="robots" content="noindex">
+  <meta name="googlebot" content="noindex">
+  <meta charset="UTF-8">
+  <meta name="description" content="Runmark gård">
+  <meta name="keywords" content="gårdsbruk, närproducerat, jobba på gård, bo på gård, stugby, butik">
+  <meta name="author" content="Joakim Ringstad">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="booking.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet">
+  <title>Runmark gård - Bli en del av gårdslivet</title>
+</head>
+<body>
+<div id="booking">
+  <h1>Boka boende på Runmark gård</h1>
+  <p>Du får efter din bokning en bekräftelse per e-post. Du kan avboka upp till 3 dagar före bokningsdatumet och görs över telefon direkt till Runmark gård, kontaktuppgifter hittar du på hemsidan. Om du har extra frågor som rör din bokning kan du istället ringa till oss på <strong>0733 29 52 25</strong></p>
+  <form action="none.php">
+      <fieldset>
+        <legend>Kontaktuppgifter</legend>
+        Namn:<br>
+        <input type="text" name="name" required><br>
+        Telefon:<br>
+        <input type="tel" name="phone" required><br>
+        E-post:<br>
+        <input type="email" name="mail" required><br>
+        Antal personer inkl barn:<br>
+        <input type="text" name="persons" required><br><br> 
+        </fieldset>
+          <fieldset>
+        <legend>Datum</legend>   
+        Ankomst:<br>
+        <input type="date" name="arrival"><br>
+        Avresa: <br>
+        <input type="date" name="departure"><br><br>
+        </fieldset>
+          <fieldset>
+        <legend>Boendeform</legend> 
+        <input type="radio" name="animals" value="yes">Liten stuga (2-bäddar)<br>
+        <input type="radio" name="animals" value="no">Familjestuga (En dubbelsäng &amp; 6 våningsängar)<br>
+        <input type="radio" name="animals" value="yes"> Husvagn/husbil med el (149,-/dygn)<br>
+        <input type="radio" name="animals" value="no"> Husvagn/husbil utan el (129,-/dygn)<br><br>
+        </fieldset>
+          <fieldset>
+        <legend>Önskemål</legend> 
+        <input type="checkbox" name="fika" value="checked">Fika vid ankomst? (gratis)<br>
+        <input type="checkbox" name="work" value="checked">Vi vill arbeta (-49sek per dag)<br>
+        <input type="checkbox" name="spadbarn" value="checked">Spädbarn (placering nära servicehus)<br>
+        <input type="checkbox" name="arrivalafterclosing" value="checked">Ankomst utanför öppettider 13-20 (extra instruktioner via mail)<br>
+        <input type="checkbox" name="animals" value="checked">Husdjur (stugor avsedda för djur)<br><br>        
+         Övrigt meddelande<br>
+         <textarea name="message" rows="5" cols="30"></textarea><br>
+         <input type="submit" value="Boka">
+        </fieldset>
+
+        
+      </form>
+</div>
+  </body>
+</html>
